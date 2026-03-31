@@ -1,0 +1,119 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ============================================
+# IDEs
+# ============================================
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# ============================================
+# Data & Models
+# ============================================
+
+# Raw datasets (large files)
+raw_data/
+
+# Processed data
+processed_data/
+
+# Model checkpoints and weights
+results/models/
+checkpoints/
+*.h5
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.weights
+
+# ============================================
+# Logs & Temp Files
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Training outputs
+runs/
+outputs/
+wandb/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+# python stuff
+__pycache__/
+*.pyc
+.venv/
+*.pt
+xai_results/
+processed_data/
+comparison_report.md
+compare_models.py
+run_pipeline.py
+raw_data/
